@@ -1,5 +1,8 @@
 .presentacion__lista{
   display: flex;
+  flex-wrap: wrap;
+  line-height: 2;
+  justify-content: space-around;
 }
 
 .presentacion__lista__item{

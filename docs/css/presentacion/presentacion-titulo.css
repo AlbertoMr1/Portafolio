@@ -3,3 +3,10 @@
   color: #464646;
   margin-bottom: 2rem;
 }
+
+@media screen and (min-width: 0) and (max-width: 1023px){
+  .presentacion__titulo{
+    font-size: 32px;
+    font-weight: 700;
+  }
+}

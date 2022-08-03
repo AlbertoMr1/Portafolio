@@ -1,5 +1,5 @@
 .presentacion__imagen{
-  width: 650px;
+  width: 500px;
   height: 300px;
   margin-left: 1rem;
   background-image: url("../../img/tohru.jpg");
@@ -9,13 +9,20 @@
   border-radius: 100%;
 }
 
-@media screen and (max-width: 1023px){
+@media screen and (min-width: 0px) and (max-width: 479px){
   .presentacion__imagen{
-    width: 600px;
+    width: 250px;
     height: 250px;
+    margin-left: 0;
+    margin-bottom: 1rem;
   }
 }
 
-@media screen and (max-width: 479px){
-
+@media screen and (min-width: 480px) and (max-width: 1023px){
+  .presentacion__imagen{
+    width: 250px;
+    height: 250px;
+    margin-left: 1rem;
+    margin-bottom: 0rem;
+  }
 }

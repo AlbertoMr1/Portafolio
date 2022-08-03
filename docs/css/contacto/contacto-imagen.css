@@ -1,11 +1,12 @@
-@media screen and (max-width: 1023px){
+@media screen and (min-width: 600px) and (max-width: 1023px){
   .contacto__imagen{
-    width: 200px;
-    height: 288px;
+    width: 50%;
     align-self: center;
   }
 }
 
-@media screen and (max-width: 479px){
-
+@media screen and (min-width: 0px) and (max-width: 599px){
+  .contacto__imagen{
+    display: none;
+  }
 }

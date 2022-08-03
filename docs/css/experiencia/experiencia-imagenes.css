@@ -1,13 +1,13 @@
 .experiencia__imagen{
-  width: 50rem;
+  width: 45rem;
 }
 
-@media screen and (max-width: 1023px){
+@media screen and (min-width: 0px) and (max-width: 1023px){
   .experiencia__imagen{
     width: 100%;
   }
 }
 
-@media screen and (max-width: 479px){
+@media screen and (min-width: 1024px){
 
 }

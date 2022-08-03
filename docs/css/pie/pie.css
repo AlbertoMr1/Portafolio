@@ -4,3 +4,11 @@
   line-height: 30px;
   font-size: 20px;
 }
+
+@media screen and (min-width: 0px) and (max-width: 1023px){
+  .pie{
+    font-size: 15px;
+    line-height: 10px;
+    padding: 0.5rem 0;
+  }
+}

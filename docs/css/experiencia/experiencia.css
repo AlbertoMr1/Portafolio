@@ -15,9 +15,10 @@
   margin-top: 4rem;
 }
 
-@media screen and (max-width: 1023px){
+@media screen and (max-width: 1299px){
   .experiencia__proyecto{
     flex-direction: column;
+    align-items: center;
   }
 }
 

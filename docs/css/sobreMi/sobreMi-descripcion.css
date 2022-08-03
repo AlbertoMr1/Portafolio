@@ -3,3 +3,9 @@
   color: #464646;
   margin-right: 20%;
 }
+
+@media screen and (min-width: 0px) and (max-width: 479px){
+  .sobreMi__descripcion{
+    margin-right: 0;
+  }
+}
