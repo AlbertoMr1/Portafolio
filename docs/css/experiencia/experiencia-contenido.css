@@ -1,0 +1,12 @@
+.experiencia__contenido{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #464646;
+  margin-left: 1rem;
+}
+
+.experiencia__espacio{
+  padding: 1rem 0 1rem 2.5rem;
+}

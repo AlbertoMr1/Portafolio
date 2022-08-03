@@ -1,0 +1,12 @@
+.presentacion__lista{
+  display: flex;
+}
+
+.presentacion__lista__item{
+  padding-right: 2rem;
+}
+
+.presentacion__lista__item__link{
+  text-decoration: none;
+  color: black;
+}

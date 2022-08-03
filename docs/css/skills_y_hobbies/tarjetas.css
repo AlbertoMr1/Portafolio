@@ -1,0 +1,17 @@
+.skills, .hobbies, .formacion{
+  margin-top: 3rem;
+}
+
+.tarjetas__div{
+  display: flex;
+  justify-content: space-around;
+}
+
+.tarjetas{
+  width: 120px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}

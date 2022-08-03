@@ -1,0 +1,6 @@
+.cabecera{
+  display: flex;
+  justify-content: space-between;
+  color: #464646;
+  padding: 0 5rem;
+}

@@ -1,0 +1,11 @@
+.experiencia{
+  padding: 3rem 5rem 3rem 5rem;
+}
+
+.proyectos{
+  margin-top: 2rem;
+}
+
+.experiencia__proyecto{
+  display: flex;
+}

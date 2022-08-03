@@ -1,0 +1,14 @@
+.tarjetas--formacion{
+  width: 200px;
+  height: 260px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.formacion{
+  background-color: #eaf2fd;
+  margin-top: 2rem;
+  padding: 3rem 5rem 3rem 5rem;
+}
