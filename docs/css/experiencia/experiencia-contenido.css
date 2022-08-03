@@ -10,3 +10,13 @@
 .experiencia__espacio{
   padding: 1rem 0 1rem 2.5rem;
 }
+
+@media screen and (max-width: 1023px){
+  .experiencia__espacio{
+    padding: 1rem 0;
+  }
+}
+
+@media screen and (max-width: 479px){
+
+}

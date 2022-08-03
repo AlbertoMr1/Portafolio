@@ -12,3 +12,15 @@
   margin-top: 2rem;
   padding: 3rem 5rem 3rem 5rem;
 }
+
+@media screen and (max-width: 1023px){
+  .tarjetas--formacion{
+    width: 180px;
+    height: 235px;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 479px){
+
+}

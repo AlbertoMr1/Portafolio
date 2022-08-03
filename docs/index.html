@@ -2,6 +2,7 @@
 <html lang="es">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio</title>
 
     <link rel="stylesheet" href="css/reset.css">
@@ -30,6 +31,7 @@
     <link rel="stylesheet" href="css/contacto/contacto-descripcion.css">
     <link rel="stylesheet" href="css/contacto/contacto-boton.css">
     <link rel="stylesheet" href="css/contacto/contacto-entradas.css">
+    <link rel="stylesheet" href="css/contacto/contacto-imagen.css">
     <link rel="stylesheet" href="css/contacto/contacto-titulo.css">
     <link rel="stylesheet" href="css/contacto/contacto-informacion.css">
     <link rel="stylesheet" href="css/pie/pie.css">
@@ -45,12 +47,14 @@
       <p class="nombre">Luis Alberto Martinez Ramirez</p>
       <nav class="menu">
         <ul class="menu__lista">
-          <li class="menu__lista__item"><a class="menu__lista__item__link" href="#">Sobre mí</a></li>
-          <li class="menu__lista__item"><a class="menu__lista__item__link" href="#">Skills</a></li>
-          <li class="menu__lista__item"><a class="menu__lista__item__link" href="#">Hobbies</a></li>
-          <li class="menu__lista__item"><a class="menu__lista__item__link" href="#">Formación</a></li>
-          <li class="menu__lista__item"><a class="menu__lista__item__link" href="#">Proyectos</a></li>
-          <li class="menu__lista__item"><a class="menu__lista__item__link" href="#">Contacto</a></li>
+          <div class="menu__lista__items">
+            <li class="menu__lista__item"><a class="menu__lista__item__link" href="#">Sobre mí</a></li>
+            <li class="menu__lista__item"><a class="menu__lista__item__link" href="#">Skills</a></li>
+            <li class="menu__lista__item"><a class="menu__lista__item__link" href="#">Hobbies</a></li>
+            <li class="menu__lista__item"><a class="menu__lista__item__link" href="#">Formación</a></li>
+            <li class="menu__lista__item"><a class="menu__lista__item__link" href="#">Proyectos</a></li>
+          </div>
+          <li class="menu__lista__item"><a class="menu__lista__item__link" href="#">contacto@email.com</a></li>
         </ul>
       </nav>
     </header>
@@ -180,7 +184,8 @@
               </div>
             </div>
           </div>
-          <div class="experiencia__proyecto">
+          <div class="experiencia__proyecto proyecto__ahorcado">
+            <img class="experiencia__imagen experiencia__espacio" src="img/ahorcado.png" alt="">
             <div class="experiencia__contenido">
               <h4 class="experiencia__proyecto__titulo experiencia__espacio">Juego del ahorcado</h4>
               <p class="experiencia__proyecto__descripcion experiencia__espacio">Challenge Oracle / Alura Ahorcado</p>
@@ -189,16 +194,17 @@
                 <a class="experiencia__proyecto__boton--demo" href="https://albertomr1.github.io/Ahorcado/" target="_blank">Ver demo</a>
               </div>
             </div>
-            <img class="experiencia__imagen experiencia__espacio" src="img/ahorcado.png" alt="">
           </div>
         </div>
       </section>
 
       <section class="contacto">
-        <img src="img/telefono.png" alt="">
+        <img class="contacto__imagen" src="img/telefono.png" alt="">
         <div class="contacto__informacion">
-          <h3 class="contacto__titulo">Contacto</h3>
-          <p class="contacto__descripcion">¿Quieres contactarme?<br>Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</p>
+          <div class="contacto__parrafo">
+            <h3 class="contacto__titulo">Contacto</h3>
+            <p class="contacto__descripcion">¿Quieres contactarme?<br>Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</p>
+          </div>
           <input class="contacto__entrada" type="text" name="" value="" placeholder="Nombre">
           <input class="contacto__entrada" type="email" name="" value="" placeholder="Email">
           <input class="contacto__entrada" type="text" name="" value="" placeholder="Asunto">

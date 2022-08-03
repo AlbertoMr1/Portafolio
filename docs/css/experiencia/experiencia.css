@@ -9,3 +9,18 @@
 .experiencia__proyecto{
   display: flex;
 }
+
+.proyecto__ahorcado{
+  flex-direction: row-reverse;
+  margin-top: 4rem;
+}
+
+@media screen and (max-width: 1023px){
+  .experiencia__proyecto{
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 479px){
+
+}

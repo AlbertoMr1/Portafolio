@@ -3,3 +3,13 @@
   display: flex;
   padding: 0 5rem;
 }
+
+@media screen and (max-width: 1023px){
+  .presentacion{
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 479px){
+
+}

@@ -1,4 +1,4 @@
-.menu__lista{
+.menu__lista, .menu__lista__items{
   display: flex;
 }
 
@@ -9,4 +9,16 @@
 .menu__lista__item__link{
   text-decoration: none;
   color: #464646;
+}
+
+@media screen and (max-width: 1023px){
+  .menu__lista__items{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 479px){
+  .menu__lista__items{
+    display: none;
+  }
 }
