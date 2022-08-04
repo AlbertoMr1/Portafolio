@@ -11,6 +11,13 @@
   color: #464646;
 }
 
+.menu__lista__item__link:hover{
+  color: #2a7ae4;
+  font-weight: 750;
+  font-size: 1.1rem;
+  transition: 0.1s;
+}
+
 @media screen and (max-width: 1023px){
   .menu__lista__items{
     display: none;

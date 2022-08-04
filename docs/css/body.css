@@ -1,3 +1,7 @@
+html{
+  scroll-behavior: smooth;
+}
+
 .cuerpo{
   background-color: #f5f5f5;
   font-family: 'Raleway', sans-serif;

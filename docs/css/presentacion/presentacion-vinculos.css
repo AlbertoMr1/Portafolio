@@ -12,4 +12,12 @@
 .presentacion__lista__item__link{
   text-decoration: none;
   color: black;
+  padding-right: 10px;
+}
+
+.presentacion__lista__item__link:hover{
+  color: #2a7ae4;
+  font-weight: 750;
+  font-size: 1.1rem;
+  transition: 0.1s;
 }

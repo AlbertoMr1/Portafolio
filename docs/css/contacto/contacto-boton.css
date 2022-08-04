@@ -5,3 +5,7 @@
   border: none;
   color: #ffffff;
 }
+
+.contacto__boton:hover{
+  font-size: 1.2rem;
+}
